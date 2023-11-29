@@ -12,7 +12,7 @@ menuIcon.onclick = () => {
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
-window.onscroll = () => {
+window.onscroll = () => { 
     sections.forEach(sec => {
         let top = window.scrollY;
         let Offset = sec.offsetTop - 150;
